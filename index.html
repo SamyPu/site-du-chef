@@ -10,27 +10,30 @@
 </head>
 
 <body>
+    <!--  -->
     <!-- HEADER/////////////////////////////////////////////////// -->
     <header class="container-fluid" style="height: 100vh;">
         <!-- NAVBAR/////////////////////////////////////////////// -->
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link text-uppercase" href="#">Home</a>
-                        <a class="nav-link text-uppercase" href="#">About Us</a>
-                        <a class="nav-link text-uppercase" href="#">Menu List</a>
-                        <a class="nav-link text-uppercase" href="#">Team</a>
-                        <a class="nav-link text-uppercase" href="#">Reservation</a>
-                        <a class="nav-link text-uppercase" href="#">Blog</a>
-                        <a class="nav-link text-uppercase" href="#">Testimonials</a>
-                        <a class="nav-link text-uppercase" href="#">Contact Us</a>
+                <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav border-top border-bottom">
+                        <a class="nav-link text-uppercase p-3" href="#">Home</a>
+                        <a class="nav-link text-uppercase p-3" href="#">About Us</a>
+                        <a class="nav-link text-uppercase p-3" href="#">Menu List</a>
+                        <a class="nav-link text-uppercase p-3" href="#">Team</a>
+                    </div>
+                    <a class="navbar-brand mx-5" href="#"><img src="./public/img/logo.png" alt=""></a>
+                    <div class="navbar-nav border-top border-bottom">
+                        <a class="nav-link text-uppercase p-3" href="#">Reservation</a>
+                        <a class="nav-link text-uppercase p-3" href="#">Blog</a>
+                        <a class="nav-link text-uppercase p-3" href="#">Testimonials</a>
+                        <a class="nav-link text-uppercase p-3" href="#">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -47,11 +50,9 @@
                     aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
+                <div class="carousel-item active d-flex flex-column justify-content-center align-items-center h-100 w-100">
+                    <h1>First slide label</h1>
+                    <p>Some representative placeholder content for the first slide.</p>
                 </div>
                 <div class="carousel-item">
                     <div class="carousel-caption d-none d-md-block">
@@ -66,21 +67,106 @@
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
         <!-- CAROUSEL END///////////////////////////////////////// -->
     </header>
-    <!-- HEADER END/////////////////////////////////////////////// -->
+    <!-- HEADER/////////////////////////////////////////////// END -->
+    <!--  -->
+    <!-- SECTION 1 (STORY+MENU)/////////////////////////////////// -->
+    <section id="story-menu" class="container-fluid py-5 bg-foods">
+        <div class="card container">
+            <div class="card-body">
+                <!-- STORY /////////////////////////////////////// -->
+                <div id="story" class="row justify-content-center">
+                    <div class="col-12 col-lg-6 text-center">
+                        <h2 class="mt-3"><span class="text-danger fs-4">OUR </span>Story</h2>
+                        <img src="./public/img/decoration_line.png" alt="" class="position-relative" style="top: -20px;">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel aperiam architecto unde est iste sed ullam. Hic, consequuntur odio ut, expedita error ipsa neque culpa magni magnam facere corrupti atque.</p>
+                    </div>
+                </div>
+                <!-- STORY//////////////////////////////////// END -->
+                <!-- MENU///////////////////////////////////////// -->
+                <div id="menu" class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="mt-3"><span class="text-danger fs-4">OUR </span>Menu List</h2>
+                        <img src="./public/img/decoration_line.png" alt="" class="position-relative" style="top: -20px;">
+                    </div>
+                </div>
+                <!-- MENU///////////////////////////////////// END -->
+            </div>
+        </div>
+    </section>
+    <!-- SECTION 1 (STORY+MENU)/////////////////////////////// END -->
+    <!--  -->
+    <!-- SECTION 2 MEET OUR CHEF////////////////////////////////// -->
+    <section id="team" class="container-fluid py-5 pb-3">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-12 col-lg-6 text-center d-flex justify-content-center align-items-center flex-column">
+                    <div style="max-width: max-content;" class="m-0 position-relative">
+                        <h2 class="m-0 text-white"><span class="text-danger fs-4">MEET </span>Our Chef</h2>
+                        <img src="./public/img/decoration_line.png" alt="" class="img-fluid position-relative" style="top: -12px;">
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mx-5">
+                <div class="col-12 col-md-6 col-xl-3 d-flex justify-content-center flex-column align-items-center mt-5">
+                    <img class="border-bottom border-secondary" src="./public/img/chef1.png" alt="">
+                    <p class="text-white">Lorem Ipsum</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 d-flex justify-content-center flex-column align-items-center mt-5">
+                    <img class="border-bottom border-secondary" src="./public/img/chef2.png" alt="">
+                    <p class="text-white">Lorem Ipsum</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 d-flex justify-content-center flex-column align-items-center mt-5">
+                    <img class="border-bottom border-secondary" src="./public/img/chef3.png" alt="">
+                    <p class="text-white">Lorem Ipsum</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 d-flex justify-content-center flex-column align-items-center mt-5">
+                    <img class="border-bottom border-secondary" src="./public/img/chef4.png" alt="">
+                    <p class="text-white">Lorem Ipsum</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION 2 MEET OUR CHEF////////////////////////////// END -->
+    <!--  -->
+    <!-- SECTION 3 (RESERVATION+BLOG)///////////////////////////// -->
+    <section id="reservation-blog" class="container-fluid py-5 bg-foods">
+        <div class="card container">
+            <div class="card-body">
+                <!-- RESERVATION////////////////////////////////// -->
+                <div id="blog" class="row justify-content-center">
+                    <div class="col-12 col-lg-6 text-center d-flex justify-content-center align-items-center flex-column">
+                        <div style="max-width: max-content;" class="m-0 position-relative">
+                            <h2 class="m-0"><span class="text-danger fs-4">BOOK </span>Your Table</h2>
+                            <img src="./public/img/decoration_line.png" alt="" class="img-fluid position-relative" style="top: -12px;">
+                        </div>
+                    </div>
+                </div>
+                <!-- RESERVATION////////////////////////////// END -->
+                <!-- BLOG///////////////////////////////////////// -->
+                <div id="blog" class="row justify-content-center">
+                    <div class="col-12 col-lg-6 text-center d-flex justify-content-center align-items-center flex-column">
+                        <div style="max-width: max-content;" class="m-0 position-relative">
+                            <h2 class="m-0"><span class="text-danger fs-4">OUR </span>Blog</h2>
+                            <img src="./public/img/decoration_line.png" alt="" class="img-fluid position-relative" style="top: -12px;">
+                        </div>
+                    </div>
+                </div>
+                <!-- BLOG///////////////////////////////////// END -->
+            </div>
+        </div>
+    </section>
+    <!-- SECTION 3 (RESERVATION+BLOG)///////////////////////// END -->
+    <!--  -->
+    <!-- SECTION 4 TESTIMONIALS///////////////////////////////////  -->
+    <section id="testimonials" class="container-fluid py-5"></section>
+    <!-- SECTION 4 TESTIMONIALS/////////////////////////////// END  -->
+    <!--  -->
+    <!-- SCRIPT BOOTSTRAP -->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <!--  -->
 </body>
 
 </html>
