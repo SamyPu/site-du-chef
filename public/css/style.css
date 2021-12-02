@@ -18020,8 +18020,16 @@ header .nav-link:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../img/team_background.jpg");
 }
 
+#testimonials {
+  background-image: url("../img/testimonials_background.jpg");
+}
+
 h2, .h2 {
   font-family: "Courgette", sans-serif;
+}
+
+.rounded-4 {
+  border-radius: 0.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */
