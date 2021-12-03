@@ -18024,6 +18024,10 @@ header .nav-link:hover {
   background-image: url("../img/testimonials_background.jpg");
 }
 
+#footer {
+  background-image: url("../img/footer_background.jpg");
+}
+
 h2, .h2 {
   font-family: "Courgette", sans-serif;
 }
